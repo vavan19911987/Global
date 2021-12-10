@@ -1,0 +1,16 @@
+@import 'libs/mynormalize';
+@import 'libs/font';
+
+body {
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/media';
